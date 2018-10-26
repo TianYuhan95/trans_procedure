@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.data.jpa.repository.JpaRepository java.util.List&lt;T&gt; findAll()'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+</root>

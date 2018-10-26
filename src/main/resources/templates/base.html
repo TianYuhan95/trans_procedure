@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="../static/css/css/bootstrap.css" type="text/css"></link>
+<body>
+<!-- Header -->
+<div class="container" th:fragment="header(title)">
+    <div class="row">
+        <div class="col-2">
+            <img src="../static/image/logo.jpg" class="img-thumbnail rounded-circle border-0" alt="Cinque Terre">
+        </div>
+        <div class="col-6 text-center">
+            <br/>
+            <h1 th:text="${title}">title</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div th:fragment="footer" class="navbar-fixed-bottom">
+    <div class="container text-center">
+        Copyright © Unicom
+    </div>
+
+</div>
+</body>
+</html>
